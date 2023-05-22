@@ -3,8 +3,8 @@
  
     body{
         font-family: 'Roboto' , sans-serif;
-        background-color: #003cff;
-        color:rgb(146, 255, 134);
+        background-color: #00fbff;
+        color:rgb(111, 3, 193);
         margin: 0 ;
         
        
@@ -16,14 +16,14 @@
      }
      
     a:link {
-        color:#8f0000
+        color:#b90000
       }
       
       a:visited {
        color:#ff00bb;
       }
         a:hover {
-            color: #7b00ff
+            color: #00ff2f
           }
           a:active {
             color: #ffae00
