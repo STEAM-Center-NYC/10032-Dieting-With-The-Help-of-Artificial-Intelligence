@@ -111,31 +111,3 @@ body {
     width: 120vw; height: auto;
     z-index: 120;
   }
-  
->>>>>>> ec02838 (h)
-=======
-          #header {
-            text-align:center; background-color: rgb(102, 0, 255);
-            color:#00ff8c
-          }
-          .float-right{
-            float: right;
-          }
-          .excessive-text{
-        font-weight:bold
-        font-size 24px;
-          }
-          #portrait {
-            float: left;
-            margin-right: 8px;
-            border-radius: 10%;
-            position: fixed;
-            top: 0;
-          }
-          
-        #navbar {
-            background-color: rgb(255, 77, 0)
-        
-        }
-        
->>>>>>> b968416 (add style.css)
