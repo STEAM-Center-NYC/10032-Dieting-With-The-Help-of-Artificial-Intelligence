@@ -1,36 +1,4 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
- 
-    body{
-        font-family: 'Roboto' , sans-serif;
-        background-color: #00fbff;
-        color:rgb(111, 3, 193);
-        margin: 0 ;
-        
-       
- 
-    }
-     main{
-        max-width: 768px;
-        margin:0 auto;
-     }
-     
-    a:link {
-        color:#b90000
-      }
-      
-      a:visited {
-       color:#ff00bb;
-      }
-        a:hover {
-            color: #00ff2f
-          }
-          a:active {
-            color: #ffae00
-          }
-        
-=======
+
 body {
     margin: 0;
     background-image: linear-gradient(
@@ -145,3 +113,29 @@ body {
   }
   
 >>>>>>> ec02838 (h)
+=======
+          #header {
+            text-align:center; background-color: rgb(102, 0, 255);
+            color:#00ff8c
+          }
+          .float-right{
+            float: right;
+          }
+          .excessive-text{
+        font-weight:bold
+        font-size 24px;
+          }
+          #portrait {
+            float: left;
+            margin-right: 8px;
+            border-radius: 10%;
+            position: fixed;
+            top: 0;
+          }
+          
+        #navbar {
+            background-color: rgb(255, 77, 0)
+        
+        }
+        
+>>>>>>> b968416 (add style.css)
