@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, send_from_directory, abort, g
 
-from flask_login import LoginManager, login_required, login_user, current_user, logout_user, get_db, User
+from flask_login import LoginManager, login_required, login_user, current_user, logout_user
 
 import pymysql
 import pymysql.cursors
