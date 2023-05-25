@@ -15,13 +15,22 @@ login_manager.init_app(app)
 
 
 
+@login_manager.user_loader
+def user_loader(user_id):
+     cursor = get_db().cursor()
 
+     cursor.execute("SELECT * from `user` WHERE `id` =" + user_id)
+
+
+
+
+     result = cursor.fetchone()
+
+     if result is None:
+          return None
      
+     return User(result['ID'],result['username'],result['banned'])
 
-
-
-
- 
 @app.route("/")
 def index():
 
@@ -39,19 +48,6 @@ def about():
         
 
     )
-
-
-
-@app.route("/Diets")
-def about():
-
-    return render_template(
-        "diets.html.jinja"
-        
-
-    )
-
-
 
 
 
