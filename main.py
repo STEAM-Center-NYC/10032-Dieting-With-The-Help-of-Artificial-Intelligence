@@ -50,6 +50,14 @@ def about():
     )
 
 
+@app.route("/Diets")
+def diets():
+
+    return render_template(
+        "diets.html.jinja"
+        
+
+    )
 
 
 @app.errorhandler(404)
