@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, send_from_directory, abort, g
 
-from flask_login import LoginManager, login_required, login_user, current_user, logout_user
+from flask_login import LoginManager, login_required, login_user, current_user, logout_user, get_db, User
 
 import pymysql
 import pymysql.cursors
@@ -45,6 +45,16 @@ def about():
 
     return render_template(
         "about.html.jinja"
+        
+
+    )
+
+
+@app.route("/Diets")
+def about():
+
+    return render_template(
+        "diets.html.jinja"
         
 
     )
