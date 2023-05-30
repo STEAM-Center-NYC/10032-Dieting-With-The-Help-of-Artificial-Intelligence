@@ -59,6 +59,55 @@ def diets():
 
     )
 
+@app.route("/vegan")
+def about():
+
+    return render_template(
+        "vegan.html.jinja"
+        
+
+    )
+
+@app.route("/paleo")
+def about():
+
+    return render_template(
+        "paleo.html.jinja"
+        
+
+    )
+
+@app.route("/dash")
+def about():
+
+    return render_template(
+        "dash.html.jinja"
+        
+
+    )
+
+@app.route("/mediterranean")
+def about():
+
+    return render_template(
+        "mediterranean.html.jinja"
+        
+
+    )
+
+@app.route("/keto")
+def about():
+
+    return render_template(
+        "keto.html.jinja"
+        
+
+    )
+
+
+
+
+
 
 @app.errorhandler(404)
 def not_found_error(error):
