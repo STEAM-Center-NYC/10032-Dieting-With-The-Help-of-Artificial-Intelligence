@@ -53,10 +53,3 @@ h1 {
   font-family: 'Montserrat', sans-serif;
 }
 
-ul {
-  position: absolute;
-  font-size: 5vw;
-  z-index: 100;
-  top: 10vh; left: 3vw;
-  font-family: 'Montserrat', sans-serif;
-}

@@ -53,6 +53,16 @@ body {
     font-family: 'Montserrat', sans-serif;
   }
 
+  p {
+    position: absolute;
+    font-size: 2vw;
+    z-index: 100;
+    top: 45vh; left: 2vw;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+ 
+
  
   
   /* h1::after {
