@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(
+      -30deg,
+      #42d54c 0%,
+      #25e46b 50%,
+      #8feb87 100%
+    );
+    overflow-x: hidden;
+    color: white;
+    font-family: sans-serif;
+    height: 200vh;
+  }
+  
+  header {
+    position: fixed;
+    z-index: 500;
+  }
+  
+  li {
+    list-style: none;
+    display: inline;
+    font-size: 2vw;
+    margin: 30px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  a::after {
+    content: "";
+    transition: 500ms;
+    display: block;
+    position: absolute;
+    width: inherit; height: 0.5vw;
+    top: 4vw; right: 0; bottom: 0; left: 0;
+    border-radius: 1rem 0;
+    background-color: white;
+  }
+  
+  a:hover::after {
+    top: 3vw;
+  }
+  
+  h1 {
+    position: absolute;
+    font-size: 5vw;
+    z-index: 100;
+    top: 10vh; left: 3vw;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  
