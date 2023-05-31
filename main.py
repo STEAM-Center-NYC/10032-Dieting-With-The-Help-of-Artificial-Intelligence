@@ -60,7 +60,7 @@ def diets():
     )
 
 @app.route("/vegan")
-def about():
+def vegan():
 
     return render_template(
         "vegan.html.jinja"
@@ -68,26 +68,26 @@ def about():
 
     )
 
-@app.route("/paleo")
-def about():
+@app.route("/Paleo")
+def paleo():
 
     return render_template(
-        "paleo.html.jinja"
+        "Paleo.html.jinja"
         
 
     )
 
-@app.route("/dash")
-def about():
+@app.route("/Dash")
+def dash():
 
     return render_template(
-        "dash.html.jinja"
+        "Dash.html.jinja"
         
 
     )
 
 @app.route("/mediterranean")
-def about():
+def med():
 
     return render_template(
         "mediterranean.html.jinja"
@@ -96,7 +96,7 @@ def about():
     )
 
 @app.route("/keto")
-def about():
+def keto():
 
     return render_template(
         "keto.html.jinja"
