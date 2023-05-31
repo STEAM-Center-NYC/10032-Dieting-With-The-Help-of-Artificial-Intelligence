@@ -5,8 +5,6 @@ from flask_login import LoginManager, login_required, login_user, current_user, 
 import pymysql
 import pymysql.cursors
 
-import pandas as pd
-import numpy as np
 
 login_manager = LoginManager()
 
@@ -65,10 +63,7 @@ def diets():
 @app.route("/vegan")
 def vegan():
 
-    df = pd.read_csv('/Users/ECU/Downloads/archive/vegan.csv',sep=',')
-    df.head()
-
-    return render_template(
+   return render_template(
         "vegan.html.jinja"
         
 
